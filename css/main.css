@@ -94,6 +94,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: row wrap;
 
 }
 
@@ -101,41 +102,90 @@ footer {
 
 header {}
 
-header .content-wrapper {}
+header .content-wrapper {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
 .header-divider {}
 
-header nav {}
+header nav {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header nav ul {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /******* Mobile Styles - Homepage *********/
 
-.hero-area {}
+.hero-area {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
 
-aside {}
+aside {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
 aside .form-description {}
 
 aside .form {}
 
-.features {}
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 section .content-wrapper {}
 
-.features-items {}
+.features-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
 article .features-item-description {}
 
-.reviews {}
+.reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
 /********** Mobile Styles - About ********/
 
-.mission {}
+.mission {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
 .mission-content {}
 
 .map {}
 
-.contact-section {}
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
 .contact-content {}
 
@@ -143,7 +193,18 @@ article .features-item-description {}
 
 /*****************Mobile Styles - FAQ ****************/
 
-.faqs {}
+.faqs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.faqs .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
 .faq-content {}
 
@@ -158,9 +219,17 @@ footer .content-wrapper {}
 
 footer .contact {}
 
-footer .social {}
+footer .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-.social-icons {}
+footer .social-icons {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 
