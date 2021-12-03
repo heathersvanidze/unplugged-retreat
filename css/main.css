@@ -100,28 +100,37 @@ footer {
 
 /******* Header Styles ******/
 
-header {}
+header {
+  padding:15px 0;
+  
+}
 
 header .content-wrapper {
   display:flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin:0;
 }
 
-.header-divider {}
+.header-divider {
+  width:89%;
+}
 
 header nav {
   display: flex;
   justify-content:space-around;
   align-items: center;
   flex-flow: row wrap;
+  width:60%;
 }
 
 header nav ul {
   display:flex;
   justify-content: center;
   align-items: center;
+  width:45%;
+  padding:20px 0;
 }
 
 /******* Mobile Styles - Homepage *********/
@@ -130,6 +139,7 @@ header nav ul {
   display:flex;
   justify-content: center;
   align-items: center;
+  padding:50px 0;
 }
 
 aside {
@@ -137,6 +147,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding:30px 0;
 }
 
 aside .form-description {}
@@ -147,24 +158,41 @@ aside .form {}
   display: flex;
   justify-content: center;
   align-items: center;
+  padding:50px 0;
 }
 
-section .content-wrapper {}
+.features article {
+  width:53%;
+}
+
+.content-wrapper {
+  width:89%;
+}
 
 .features-items {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding:60px 0;
 }
 
 article .features-item-description {}
+
+.features p {
+  margin:0;
+}
 
 .reviews {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding:60px 0;
+}
+.reviews h3 {
+  width:47%;
+  padding:20px 0;
 }
 
 /********** Mobile Styles - About ********/
@@ -174,9 +202,12 @@ article .features-item-description {}
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding:60px 0;
 }
 
-.mission-content {}
+.mission-content {
+  padding:20px 0;
+}
 
 .map {}
 
@@ -185,6 +216,7 @@ article .features-item-description {}
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding:55px 0;
 }
 
 .contact-content {}
@@ -206,29 +238,45 @@ article .features-item-description {}
   flex-flow: row wrap;
 }
 
-.faq-content {}
+.faq-content {
+  padding:50px 0;
+}
 
 
 /***********Footer Styles*********/
 
 footer {}
 
-footer .content-wrapper {}
+footer .content-wrapper {
+  width:55%;
+  margin: 50px 0;
+}
 
 .footer-content {}
 
-footer .contact {}
+footer .contact {
+  padding:50px 0;
+  text-align: center;
+}
 
 footer .social {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding:50px 0;
 }
 
 footer .social-icons {
   display:flex;
   justify-content: center;
   align-items: center;
+}
+
+footer p {
+  margin:0;
+}
+.copyright {
+  text-align: center;
 }
 
 
