@@ -511,7 +511,7 @@ footer p {
 
     /* Hero */
     .hero-area h1 {
-      width: 55%;
+      width: 60%;
   }
 
    /* Aside */
@@ -521,7 +521,7 @@ footer p {
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
-    width: 33%;
+    width: 30%;
   }
 
 
@@ -529,9 +529,6 @@ footer p {
   /*****FEATURES******/
   .features article {
   flex-basis: 33%;
-  }
-  .features .features-item-description {
-  width: 33%;
   }
  /* Features */
  .features h2 {
