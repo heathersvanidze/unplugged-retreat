@@ -101,21 +101,31 @@ body {
  
 ul, 
 ol {
+  list-style-type: none;
+  text-transform: uppercase;
  
 }
  
 a {
+  color: #e2e3ed;
+  text-decoration: none;
 	
 }
  
+h1 {
+  font-size: 2em;
+}
+
 h2 {
   font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
  
 }
  
 h3, 
 h4 {
   font-family: 'Poppins', sans-serif;
+  font-size: 1.125em;
  
 }
  
@@ -132,7 +142,7 @@ figure {
 }
  
 address {
- 
+ font-style: normal;
 }
  
 .content-wrapper {
@@ -537,15 +547,15 @@ footer p {
 /*==========================
 ===========FAQ PAGE=============*/
 
-.faq .content-wrapper {
+.faqs .content-wrapper {
   justify-content: space-between;
 }
 
 .faq-content {
-  flex-basis: 40%;
+  flex-basis: 42%;
 }
 
-.faq h2 {
+.faqs h2 {
   width: 100%;
 }
 
@@ -605,9 +615,11 @@ footer p {
    /* ==========================================================================
    FAQ Page
    ========================================================================== */
-   .faq h2 {
+   .faqs h2 {
     width: 100%;
   }
+
+
 
 
 }
