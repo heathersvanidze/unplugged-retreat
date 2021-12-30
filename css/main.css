@@ -524,6 +524,9 @@ footer p {
     }
 
     /*REVIEWS*/
+    .reviews .content-wrapper {
+      background-color: #2a423a;
+    }
     .reviews article {
       display:flex;
       justify-content: space-between;
