@@ -166,7 +166,7 @@ footer {
 
 header {
   padding:15px 0;
-  
+  background-color: #202322;
 }
 
 header .content-wrapper {
@@ -175,7 +175,7 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin:0;
-  background-color: #202322;
+  
 }
 
 .header-divider {
@@ -214,11 +214,12 @@ aside {
   flex-flow: row wrap;
   padding:30px 0;
   color: #e2e3ed;
+  background-color: #527158;
   
 }
 
 aside .content-wrapper {
-  background-color: #527158;
+  
 }
 
 aside .form-description {
@@ -257,6 +258,7 @@ input[type=button] {
   align-items: center;
   padding:50px 0;
   color: #e2e3ed;
+  background-color: #202322;
 }
 
 .features article {
@@ -276,11 +278,6 @@ input[type=button] {
   padding:20px 0;
 }
 
-.features .content-wrapper {
-  background-color: #202322;
-}
-
-article .features-item-description {}
 
 .features p {
   margin:0;
@@ -297,6 +294,7 @@ article .features-item-description {}
   flex-flow: row wrap;
   padding:60px 0;
   color: #b1b8bd;
+  background-color: #2a423a;
 }
 .reviews h3 {
   width:47%;
@@ -307,9 +305,7 @@ article .features-item-description {}
   color: #e2e3ed;
   padding: 20px;
 }
-.reviews .content-wrapper {
-  background-color: #2a423a;
-}
+
 
 /********** Mobile Styles - About ********/
 
