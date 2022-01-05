@@ -315,6 +315,8 @@ input[type=button] {
   align-items: center;
   flex-flow: row wrap;
   padding:60px 0;
+  background-color: #527158;
+  color: #e2e3ed;
 }
 
 .mission-content {
@@ -329,6 +331,17 @@ input[type=button] {
   align-items: center;
   flex-flow: row wrap;
   padding:55px 0;
+  background-color: #2a423a;
+}
+
+.contact-section h1 {
+  color: #e2e3ed;
+}
+.contact-section h3 {
+  color: #ffffff;
+}
+.contact-section p {
+  color: #e1e2ea;
 }
 
 .contact-content {}
@@ -357,14 +370,14 @@ input[type=button] {
 
 /***********Footer Styles*********/
 
-footer {}
+footer {
+  background-color: #202322;
+}
 
 footer .content-wrapper {
   width:55%;
   margin: 50px 0;
 }
-
-.footer-content {}
 
 footer .contact {
   padding:50px 0;
@@ -376,6 +389,7 @@ footer .social {
   justify-content: center;
   align-items: center;
   padding:50px 0;
+  text-align: center;
 }
 
 footer .social-icons {
@@ -383,12 +397,18 @@ footer .social-icons {
   justify-content: center;
   align-items: center;
 }
-
 footer p {
   margin:0;
 }
 .copyright {
   text-align: center;
+  color: #ffffff;
+}
+footer h2 {
+  color: #ffffff;
+}
+footer p {
+  color: #ffffff;
 }
 
 
