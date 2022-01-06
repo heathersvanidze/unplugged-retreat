@@ -192,7 +192,7 @@ header nav {
 
 header nav ul {
   display:flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   width:45%;
   padding:20px 0;
@@ -355,6 +355,8 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
+  color: #e2e3ed;
 }
 .faqs .content-wrapper {
   display: flex;
@@ -364,7 +366,7 @@ input[type=button] {
 }
 
 .faq-content {
-  padding:50px 0;
+  padding:20px 0;
 }
 
 
@@ -380,7 +382,7 @@ footer .content-wrapper {
 }
 
 footer .contact {
-  padding:50px 0;
+  padding:20px 0;
   text-align: center;
 }
 
