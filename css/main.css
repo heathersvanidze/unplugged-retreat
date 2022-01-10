@@ -134,11 +134,11 @@ p {
 }
  
 img {
- 
+ width:100%;
 }
  
 figure {
- 
+ margin:0;
 }
  
 address {
@@ -197,6 +197,13 @@ header nav ul {
   width:45%;
   padding:20px 0;
 }
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
 /******* Mobile Styles - Homepage *********/
 
@@ -205,6 +212,10 @@ header nav ul {
   justify-content: center;
   align-items: center;
   padding:50px 0;
+  background:url('../img/hero-image.jpg') center no-repeat #333;
+  background-size:cover;
+  flex-flow: row wrap;
+  color:#e2e3ed;
 }
 
 aside {
@@ -258,7 +269,10 @@ input[type=button] {
   align-items: center;
   padding:50px 0;
   color: #e2e3ed;
-  background-color: #202322;
+  background:url(../img/camp-floor.jpg) center no-repeat #333;
+  background-size:cover;
+  flex-flow: row wrap;
+  
 }
 
 .features article {
@@ -533,6 +547,9 @@ footer p {
 
   .header-divider {
     display: none;
+  }
+  header figure {
+    width: 29%;
   }
 
   /*ASIDE*/
