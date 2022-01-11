@@ -647,6 +647,9 @@ footer p {
   justify-content: space-between;
   align-items: flex-start;
 }
+.map figure {
+  padding-bottom: 75%;
+}
 
 /*==========================
 ===========FAQ PAGE=============*/
@@ -719,6 +722,10 @@ footer p {
    .contact-section .content-wrapper h2 {
        width: 95%;
    }
+
+   .map figure {
+    padding-bottom: 37.5%;
+  }
 
    /* ==========================================================================
    FAQ Page
