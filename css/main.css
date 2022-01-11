@@ -659,6 +659,10 @@ footer p {
 @media only screen and (min-width: 1200px) {
   /*Desktop styles here*/
 
+  header figure {
+    width: 24%;
+  }
+  
   .content-wrapper {
     max-width: 960px;
   }
