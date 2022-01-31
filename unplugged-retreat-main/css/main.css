@@ -866,23 +866,59 @@ h3 {
 .reviews article div {
   width: 40%;
 }
+.reviews .content-wrapper {
+  margin-bottom:80px;
+}
 /* ==========================================================================
    About Page
    ========================================================================== */
-   .mission h2,
-   .contact-section .content-wrapper h2 {
-       width: 95%;
+   .mission h1 {
+     font-size:3em;
+   }
+   .mission-content {
+     padding:0;
+   }
+   
+   .mission h1,
+   .contact-section .content-wrapper h1 {
+       width: 97%;
+   }
+   .mission {
+     padding:0;
+   }
+   .mission h1 {
+     margin-bottom:0;
+   }
+   .mission p {
+     padding-bottom:10px;
    }
 
    .map figure {
     padding-bottom: 37.5%;
   }
 
+  .contact-section h1 {
+    font-size:3em;
+    margin:0;
+  }
+
    /* ==========================================================================
    FAQ Page
    ========================================================================== */
+   .faqs .content-wrapper {
+     margin: 20px 0 50px 0;
+   }
+   
    .faqs h2 {
     width: 100%;
+    font-size:3em;
+  }
+
+  .faqs h3 {
+    font-size:1.25em;
+  }
+  .faq-content {
+    padding:0;
   }
 
 
