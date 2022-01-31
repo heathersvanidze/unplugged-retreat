@@ -762,7 +762,11 @@ h3 {
  /*=====================================
  =======ABOUT PAGE======================*/
  
- 
+ .mission .content-wrapper {
+   margin: 40px 0 40px 0;
+ }
+
+
  .mission-content {
   display: flex;
   justify-content: space-between;
@@ -782,6 +786,10 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+}
+
+.contact-content, .facilitator-contact {
+  width: 45%;
 }
 .map figure {
   padding-bottom: 75%;
