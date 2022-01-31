@@ -743,7 +743,7 @@ h3 {
     /* FOOTER */
       footer .content-wrapper {
         width: 65%;
-        margin: 100px 0;
+        margin: 40px 0;
       }
 
       .footer-content {
@@ -778,6 +778,10 @@ h3 {
   width: 45%;
 }
 
+.contact-section .content-wrapper {
+  margin:40px 0 40px 0;
+}
+
 .contact-section .content-wrapper h2 {
   width: 80%;
 }
@@ -788,9 +792,11 @@ h3 {
   align-items: flex-start;
 }
 
-.contact-content, .facilitator-contact {
-  width: 45%;
+.contact-content div {
+  width:45%;
 }
+
+
 .map figure {
   padding-bottom: 75%;
 }
